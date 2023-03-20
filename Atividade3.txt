@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+void main(){
+	//alternativa a - sequência de ímpares
+	int i, imp;
+for(i = 1; i < imp; i++){
+	if(i < imp){
+		imp++;
+		printf("A sequência de números ímpares são: %d", imp);
+	}
+   }
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+void main(){
+	//alternativa b - sequência do 2 exponencial (2^1, 2^2...)
+	int i, exp;
+for(i = 2; i <= exp; i++){
+		exp = 2^i; 
+	printf("A sequência de números ímpares são: %d", exp);
+	
+   }
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+
+void main() { //alternativa e - sequência de fibonacci
+	selocale(LC_ALL, "Portuguese");
+	int f, b, i, n, aux;
+	f=0;
+	b=1;  
+	
+	printf("Digite um número: ");
+	scanf("%d", &n);
+	printf("\nSérie de FIbonacci: \n\n %d\n",b);
+	for(i=2; i<=n; i++){
+		aux = f + b;
+		f = b;
+		b = aux;
+		
+		printf("%d\n", aux); 
+	}
+}
+
